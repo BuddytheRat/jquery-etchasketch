@@ -1,3 +1,42 @@
+body {
+	font-family: sans-serif;
+}
 #gridwrapper {
-	margin: 0 auto;
+	margin: 30px auto;
+	width: 600px;
+	height: 600px;
+}
+#gridwrapper table {
+	border: 20px solid #E0E0E0;
+	background-color: #FFF;
+	margin: auto;
+}
+#gridwrapper td {
+	opacity: 0;
+	width: 35px;
+	height: 35px;
+	border: 1px dotted #EEE;
+	background-color: #D05;
+}
+#control_panel li {
+	display: inline-block;
+	padding: 10px 10px;
+	margin: 0px 5px;
+	background-color: #E0E0E0;
+}
+#control_panel li:hover {
+	background-color: #BBB;
+}
+#control_panel li:nth-child(1) {
+	margin-left: 0;
+}
+#control_form input {
+	margin-top: 5px;
+}
+#control_form input.size {
+	width: 2.5em;
+}
+#control_form input#color {
+	display: block;
+	width: 6em;
 }
